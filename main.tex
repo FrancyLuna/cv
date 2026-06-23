@@ -1,0 +1,299 @@
+\documentclass[11pt]{article}
+
+\usepackage[letterpaper,margin=0.65in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{ebgaramond}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+
+% Header setup
+\pagestyle{fancy}
+
+% Clear defaults
+\fancyhf{}
+
+% Name + page number on top right
+\fancyhead[R]{\small Francy D. Luna Diaz \,|\, \thepage}
+
+% Remove header rule (optional)
+\renewcommand{\headrulewidth}{0pt}
+
+% More room for header
+\setlength{\headheight}{14pt}
+
+
+\pagenumbering{arabic}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Zoe-style left section column
+\newlength{\leftcol}
+\setlength{\leftcol}{1.05in}
+
+\newlength{\rightcol}
+\setlength{\rightcol}{\dimexpr\textwidth-\leftcol-0.22in\relax}
+
+\newcommand{\cvsection}[2]{%
+\vspace{0.85em}
+\noindent
+\begin{minipage}[t]{\leftcol}
+\raggedright\bfseries #1
+\end{minipage}
+\hspace{0.35in}
+\begin{minipage}[t]{\rightcol}
+#2
+\end{minipage}
+\par
+}
+
+\newcommand{\entry}[1]{%
+\hangindent=1.25em
+\hangafter=1
+#1\par\vspace{0.35em}
+}
+
+\newcommand{\subhead}[1]{%
+\textbf{#1}\par\vspace{0.25em}
+}
+
+\newcommand{\schoolentry}[4]{%
+\textbf{#1} \hfill #2\par
+#3\par
+#4\par\vspace{0.45em}
+}
+
+\begin{document}
+\thispagestyle{empty}
+
+
+\begin{center}
+    {\huge \textbf{Francy D. Luna Diaz}}\par
+    505 S State Street, 5755 Haven Hall, Ann Arbor, MI\par
+    Email: \href{mailto:LunaDiaz@UMich.edu}{LunaDiaz@UMich.edu}\\
+    Website: \url{https://francylunadiaz.com}
+\end{center}
+
+
+\cvsection{EDUCATION}{
+\schoolentry{University of Michigan}{Expected May 2027}
+{Ph.D., Political Science}
+{Dissertation: \textit{Rumors Across Borders: The Influence of Transnational Ties on the Information Environments and Political Attitudes of Latinos.}\\
+Committee: Nicholas Valentino (Chair), Ted Brader, Mara Ostfeld, Yanna Krupnikov, Charles Shipan}
+\linebreak
+
+\schoolentry{University of Arizona}{May 2019}
+{B.A., Political Science, 4.00 GPA, Highest Honors}
+{B.A., Law, 4.00 GPA, Highest Honors}
+
+
+\schoolentry{Pima Community College}{May 2016}
+{A.A., Political Science, 4.00 GPA, Highest Honors}
+{}
+}
+\vspace{0.45em}
+
+\cvsection{RESEARCH INTERESTS}{
+Latino politics, race and ethnic politics, public opinion, political communication, misinformation, transnationalism, social media, mixed methods
+}
+\vspace{0.45em}
+
+\cvsection{PUBLICATIONS}{
+\subhead{Peer-Reviewed Articles}
+
+\entry {``Women `doing' the judiciary: Rethinking the justice argument for descriptive representation.'' (With Suzzane Dovi), 2020. \textit{Politics, Groups, and Identities}, 8(4), 790--802. Dialogues Paper, Routledge. \url{https://doi.org/10.1080/21565503.2020.1789882}}
+
+\subhead{Public Scholarship}
+\entry{``Some Findings about the Nature and Distribution of American Stereotypes About Americans: Evidence from a 2024 US Survey.'' (with Mark Tessler and Amnon Cavari), 2025 \textit{Center for Political Studies Blog}. Research Brief. Ann Arbor: University of Michigan Center for Political Studies, Institute for Social Research. \url{https://cpsblog.isr.umich.edu/wp-content/uploads/2025/10/American-Stereotypes-1025-Remediated.pdf}}
+\linebreak
+\entry{``Latinos for Trump in 2020.'' (with Tevah Platt), 2022. \textit{Center for Political Studies Blog}. Blog. Ann Arbor: University of Michigan Center for Political Studies, Institute for Social Research. \url{https://cpsblog.isr.umich.edu/?p=3106}}
+}
+
+
+\cvsection{MANUSCRIPTS}{
+\subhead{Under Review}
+
+\entry{``Rumors Across Borders: How Transnational Ties and Social Media Shape Latino Belief in Misinformation and Support for Trump.''} 
+
+\entry{``Mobilizing Anger in Local School Board Politics'' (with Hilary Izatt and Zoe C. Walker). Under review at \textit{Journal of Politics}. MS: 251080.}
+}
+\cvsection{\textcolor{white}{Manuscripts}}{
+\subhead{In Progress}
+
+\entry{\textit{Book-Style Dissertation}: ``Rumors Across Borders: The Influence of Transnational Ties on Latinos’ Information and Misinformation Environment.''}
+
+\entry{``What Changed? Predictors of the Latino Vote Shift During the Trump Era'' (with Mario Villegas, Franshelly Martinez-Ortiz, and Nicholas Valentino).}
+
+\entry{``Lost in Translation: Language and Perception of Misinformation for Latinos in the U.S.'' (with Franshelly Martinez-Ortiz).}
+
+\entry{``Threats Against Democracy, Anger, and Mobilization for the 2024 Presidential Election'' (with Nicholas Valentino and Hilary Izatt).}
+
+\entry{``Effect of Racial Labels on Survey Responses'' (with Sunshine Hillygus and Nicholas Valentino)}
+
+\entry{``The rACE Coding Scheme: Measuring Racial Attribution, Color-Blindness, and Explicitness in Open-Ended Survey Responses''}
+
+
+
+\entry{``Conspiratorial Thinking and Anti-Semitism, Islamophobia, and Anti-Black Sentiment in the U.S.'' (with Mark Tessler and Amnon Cavari).}
+
+\entry{}
+}
+
+\vspace{0.45em}
+
+\cvsection{CONFERENCE PRESENTATIONS}{
+\entry{``Mobilizing Anger in Local School Board Politics.'' 2026. Invited to present at Midwest Political Science Association.}
+
+\entry{``Rumors Across Borders: The Impact of Transnational Ties on Latino Information Environments and Political Attitudes.'' 2024. Presented at PRIEC UT Austin, PRIEC MSU, Western Political Science Association Latina/o/x Politics Workshop, Midwest Political Science Association, International Society of Political Psychology, and American Political Science Association Annual Meeting.}
+
+\entry{``Lost in Translation: Language and Perception of Misinformation for Latinos in the U.S.'' 2024. Presented at the International Society of Political Psychology and American Political Science Association Annual Meeting.}
+
+\entry{``Latinos for Trump in 2020: A Story of Heterogeneous Information Environments and Social Media.'' 2023. Presented at Western Political Science Association Latina/o/x Politics Workshop, Midwest Political Science Association, and International Society of Political Psychology.}
+
+\entry{``In Their Own Words: Latino Vote and Preference for the 2016 and 2020 Presidential Elections.'' 2022. Presented at International Society of Political Psychology Annual Meeting and American Political Science Association Annual Meeting.}
+}
+\vspace{0.45em}
+
+\cvsection{TEACHING}{
+\entry{Congress and the Presidency, Graduate Student Instructor (Fall 2025, Spring 2026) \\
+Instructor: Lynn Rivers.}
+
+\entry{Congress and the Presidency, Grader (Spring 2023 to Spring 2025) \\ Instructor: Lynn Rivers.}
+
+\entry{The Legislative Process, Graduate Student Instructor (Spring 2021)\\ Instructor: Christian Fong.}
+
+\entry{Introduction to American Politics, Graduate Student Instructor (Fall 2020)\\ Instructor: Charles Shipan.}
+schols}
+\vspace{0.45em}
+
+\cvsection{INVITED TALKS AND LECTURES}{
+\entry{Stonehill College, Intro to American Politics, Professor Guillermo Caballero (October 2024)}
+
+\entry{Binghamton University (SUNY), Research Laboratory, Professor Hilary Izatt (September 2024)}
+
+\entry{University of Massachusetts Amherst, Survey Methods Graduate Seminar, Professor Alexander Theodoridis (April 2023)}
+}
+\vspace{0.45em}
+
+\cvsection{GRANTS}{
+
+\subhead{Individual}
+\entry{CEW+ Center for the Education of Women, \textit{Career Development Grant}, \$2,000 (2026)}
+\entry{NSF APSA DDRIG \textit{Doctoral Dissertation Research Improvement Grant}, \$15,000 (2025)} 
+\entry{American Political Science Association, \textit{Fund for Latino Scholarship Grant}, \$1,500 (2024)}
+\entry{University of Michigan, \textit{Rackham Graduate Research Grant} (2024)}
+\entry{American Political Science Association, \textit{First Generation Scholar Grant} (2022)}
+
+\subhead{Co-Authored}
+\entry{American Political Science Association, \textit{Spring Centennial Grant}, \$2,500 (2024)}
+\entry{National Center for Institutional Diversity, Rackham Graduate School, and the Center for Racial Justice at the Gerald R. Ford School of Public Policy, \textit{Anti-Racism Graduate Research Grant}, \$15,000 (2023)}
+
+\entry{American Political Science Association, \textit{Spring Centennial Grant}, \$2,500 (2023)}
+}
+\vspace{0.45em}
+
+\cvsection{FELLOWSHIPS \& AWARDS}{
+\subhead{NSF}
+\entry{NSF GRFP National Science Foundation Graduate Research Fellowship (2021-2026)}
+\vspace{0.35em}
+
+\subhead{University of Michigan}
+\entry{Rackham Merit Fellowship (2019-2026)}
+\entry{CEW+ Center for the Education of Women+, Gutsy Broad Fund Fellowship (2025)}
+\entry{Garth Taylor Fellowship in Public Opinion (2025)}
+\entry{Hanes Walton Jr. Fellowship for Graduate Study in Racial and Ethnic Politics (2024)}
+\entry{Philip Converse and Warren Miller Fellowship in American Political Behavior (2023)}
+\vspace{0.35em}
+
+\subhead{American Political Science Association}
+\entry{APSA Diversity Fellowship (2020)}
+
+\subhead{Other}
+\entry{AAPOR American Association for Public Opinion Research, \textit{Student-Faculty Diversity Pipeline Award} (2024)}
+
+\entry{University of Arizona \textit{Robie Gold Medal Award} (2019)}
+
+\entry{University of Arizona \textit{Honors College Outstanding Senior} (2019)}
+
+\entry{University of Arizona UROP Undergraduate Research Opportunity Program Scholar (2018)}
+
+\entry{Pima Community College Commencement Speaker (2016)}
+}
+\vspace{0.45em}
+
+\cvsection{SERVICE}{
+\entry{Article Reviewer, American Journal of Political Science (2026)}
+
+\entry{Dissertation Writing Workshop Leader (2026)}
+
+\entry{Undergraduate Honors Thesis Committee Member, Political Science Department (2021, 2024, 2026)}
+
+\entry{Research Workshop Coordinator, Interdisciplinary Race and Ethnic Politics Workshop (2022 to 2024)}
+
+\entry{Graduate Student Member of the Hiring Committee, Faculty Search for the Political Science Methodology Subfield, University of Michigan (2023)}
+
+\entry{Application Reviewer, Master of Data Science Program, University of Michigan (2023, 2024)}
+
+\entry{Admissions Assistant, Emerging Scholars Conference (October 2022 and October 2024)}
+
+\entry{Research Workshop Coordinator, Interdisciplinary Workshop in American Politics (2021, 2022)}
+}
+\vspace{0.45em}
+
+\cvsection{RESEARCH EXPERIENCE}{
+\entry{Graduate Research Assistant, ANES American National Election Studies. Current.}
+
+\entry{Graduate Research Assistant, Professors Mark Tessler and Amnon Cavari (2024)}
+
+\entry{Graduate Research Assistant, Professor Ted Brader (2020)}
+
+\entry{Graduate Research Assistant, Professor Charles Shipan (2020)}
+
+\entry{Undergraduate Research Assistant, Professors Javier Osorio and Susan Brewer-Osorio (2018 to 2019)}
+
+\entry{Undergraduate Research Assistant, Professor Suzanne Dovi (2017)}
+
+\entry{Research Fellow, Undergraduate Research Opportunity Consortium, Professor Samara Klar (2017)}
+}
+\vspace{0.45em}
+
+\cvsection{MENTORSHIP \& RESEARCH SUPERVISION}{
+\entry{Undergraduate Research Supervisor (2023-2026)}
+\entry{Graduate Student Mentor (2020-2023)}
+\entry{Fellowship Application Mentor (2021, 2022, 2026)}
+}
+\vspace{0.45em}
+
+\cvsection{METHODS TRAINING}{
+
+\entry{Advanced Quantitative Methods. Instructor: Walter Mebane (Fall 2021)}
+
+\entry{Behavioral Research Methods. Instructor: Nicholas Valentino (Fall 2021)}
+
+\entry{Statistics Methods Research II. Instructor: Kevin Quinn (Winter 2020)}
+
+\entry{Statistics Methods Research I. Instructor: Yuki Shiraito (Fall 2020).}
+}
+\vspace{0.45em}
+
+\cvsection{PROFESSIONAL AFFILIATIONS}{
+American Political Science Association\par
+Midwest Political Science Association\par
+International Society of Political Psychology\par 
+International Political Science Association\par
+American Association for Public Opinion Research
+}
+\vspace{0.45em}
+
+\cvsection{SKILLS}{
+\entry{\textbf{Methodological Expertise:} Survey design and implementation, survey experiment design and pre-registration, quantitative and qualitative data analysis, mixed-methods research, computational text analysis, LLM-assisted text classification, and interviews.}
+
+\entry{\textbf{Software:} R, Stata, Qualtrics, \LaTeX, Dedoose.}
+
+\entry{\textbf{Languages:} English (Native), Spanish (Native).}
+}
+
+\end{document}
